@@ -7,6 +7,9 @@
 !assets/
 !assets/**
 !**/*.scss
+!_layouts/
+!_layouts/**
+!**/*.html
 
 # Local/Obsidian config
 .obsidian/

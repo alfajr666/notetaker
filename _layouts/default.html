@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include meta.html %}
+  <body>
+    <div class="wrapper">
+      <header class="site-header">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h1>
+
+        {% if site.description %}
+          <p class="site-description">{{ site.description }}</p>
+        {% endif %}
+
+        <nav class="site-nav">
+          <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+          <a class="page-link" href="{{ '/BrainDump/' | relative_url }}">BrainDump</a>
+          <a class="page-link" href="{{ '/Market_Intelligence/' | relative_url }}">Market Intelligence</a>
+        </nav>
+      </header>
+
+      <main class="page-content" aria-label="Content">
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+    </div>
+
+    {% include google_analytics.html %}
+  </body>
+</html>
+

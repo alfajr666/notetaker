@@ -5,7 +5,14 @@ description: Obsidian notes published via GitHub Pages
 url: "https://alfajr666.github.io"
 baseurl: "/notetaker"
 
-theme: minima
+remote_theme: amitmerchant1990/reverie
 
-# Disable Minima's automatic header navigation (it otherwise surfaces many pages as links).
-header_pages: []
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/page:num/"
