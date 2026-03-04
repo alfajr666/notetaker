@@ -1,3 +1,7 @@
+---
+title: FRIEREN
+---
+
 # 📝 Working Title
 
 ## 0. Core Claim (HUMAN — mandatory)

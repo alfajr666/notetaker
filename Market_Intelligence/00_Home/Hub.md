@@ -1,3 +1,7 @@
+---
+title: Market Intelligence Hub
+---
+
 # 🧠 Market Intelligence Hub
 
 ## 📥 Research Inbox

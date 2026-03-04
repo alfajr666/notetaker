@@ -4,14 +4,10 @@ title: Notes
 
 # Notes
 
-This is a published view of the notes in this repo.
+This is a published view of my Obsidian notes.
 
-## Browse
+## Start Here
 
-{% assign pages_sorted = site.pages | sort: "path" %}
-{% for p in pages_sorted %}
-{% assign ext = p.path | slice: -3, 3 %}
-{% if p.path != "index.md" and ext == ".md" and p.url %}
-- [{{ p.path }}]({{ p.url | relative_url }})
-{% endif %}
-{% endfor %}
+- [BrainDump]({{ "/BrainDump/" | relative_url }})
+- [Market Intelligence]({{ "/Market_Intelligence/" | relative_url }})
+- [Creative Writing]({{ "/Creative%20Writing/" | relative_url }})
