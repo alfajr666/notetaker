@@ -11,6 +11,9 @@
 .DS_Store
 **/.DS_Store
 
+# Don't publish Creative Writing via GitHub Pages
+Creative Writing/
+
 # Templates and assets (exclude even if they are markdown)
 **/_assets/
 **/_templates/
