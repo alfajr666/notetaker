@@ -4,6 +4,9 @@
 !**/*.md
 !.gitignore
 !_config.yml
+!assets/
+!assets/**
+!**/*.scss
 
 # Local/Obsidian config
 .obsidian/
