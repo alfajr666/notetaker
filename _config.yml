@@ -1,0 +1,8 @@
+title: notetaker
+description: Obsidian notes published via GitHub Pages
+
+# Project Pages (https://<user>.github.io/<repo>/)
+url: "https://alfajr666.github.io"
+baseurl: "/notetaker"
+
+theme: minima

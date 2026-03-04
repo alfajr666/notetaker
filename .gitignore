@@ -3,6 +3,7 @@
 !*/
 !**/*.md
 !.gitignore
+!_config.yml
 
 # Local/Obsidian config
 .obsidian/
