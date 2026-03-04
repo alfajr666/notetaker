@@ -23,10 +23,12 @@
         {{ content }}
       </main>
 
-      {% include footer.html %}
+      <footer class="site-footer">
+        <p>
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </p>
+      </footer>
     </div>
 
-    {% include google_analytics.html %}
   </body>
 </html>
-
