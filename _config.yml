@@ -6,3 +6,6 @@ url: "https://alfajr666.github.io"
 baseurl: "/notetaker"
 
 theme: minima
+
+# Disable Minima's automatic header navigation (it otherwise surfaces many pages as links).
+header_pages: []
