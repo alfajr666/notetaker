@@ -1,0 +1,24 @@
+# Default: track only markdown notes.
+*
+!*/
+!**/*.md
+!.gitignore
+
+# Local/Obsidian config
+.obsidian/
+.smart-env/
+.DS_Store
+**/.DS_Store
+
+# Templates and assets (exclude even if they are markdown)
+**/_assets/
+**/_templates/
+**/_template/
+
+# iCloud placeholder notes (currently sparse/unreadable; git add fails with "short read while indexing").
+BrainDump/All Great Men Studied History the Same Way — Here's How.md
+BrainDump/Skill Graphs - The Power of Structured Knowledge.md
+BrainDump/How to Trick Your Brain Into Liking Discipline.md
+BrainDump/No One Knows Anything.md
+Market_Intelligence/10_Research_Library/"ATR Matrix" - Explained.md
+Market_Intelligence/10_Research_Library/Are markets that are good for trend good just because they have also gone up a lot, or because carry, or....md
